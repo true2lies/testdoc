@@ -4,6 +4,4 @@ WORKDIR /python_app
 
 COPY . .
 
-EXPOSE 5000
-
 CMD ["python", "main.py"]
